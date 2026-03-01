@@ -3,7 +3,7 @@ package com.rsn.pedido.service;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
-import com.rsn.pedido.event.PedidoCriadoEvent;
+import com.rsn.event.PedidoCriadoEvent;
 
 @Service
 public class PedidoService {

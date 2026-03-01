@@ -1,7 +1,6 @@
-package com.rsn.pedido.event;
+package com.rsn.event;
 
 public class PedidoCriadoEvent {
-
     private String produto;
     private Integer quantidade;
 
@@ -16,7 +15,16 @@ public class PedidoCriadoEvent {
         return produto;
     }
 
+    public void setProduto(String produto) {
+        this.produto = produto;
+    }
+
     public Integer getQuantidade() {
         return quantidade;
     }
+
+    public void setQuantidade(Integer quantidade) {
+        this.quantidade = quantidade;
+    }
+
 }

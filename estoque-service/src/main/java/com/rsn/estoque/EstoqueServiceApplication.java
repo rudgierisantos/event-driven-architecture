@@ -6,10 +6,10 @@ import org.springframework.kafka.annotation.EnableKafka;
 
 @SpringBootApplication
 @EnableKafka
-public class EstoqueSeviceApplication {
+public class EstoqueServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EstoqueSeviceApplication.class, args);
+		SpringApplication.run(EstoqueServiceApplication.class, args);
 	}
 
 }
